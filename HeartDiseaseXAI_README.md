@@ -1,6 +1,6 @@
 # 🫀 HeartDiseaseXAI: Explainable Heart Disease Risk Classification
 
-> An XGBoost classifier trained on the UCI Heart Disease dataset, with SHAP values used to explain every prediction — bridging the gap between model accuracy and clinical interpretability.
+> An XGBoost classifier trained on the UCI Heart disease dataset, with SHAP values used to explain every prediction. This project aims to bridge the gap between model accuracy and clinical interpretability.
 
 ---
 
