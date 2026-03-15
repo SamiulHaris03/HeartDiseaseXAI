@@ -1,16 +1,16 @@
-# 🫀 HeartDiseaseXAI: Explainable Heart Disease Risk Classification
+# HeartDiseaseXAI: Explainable Heart Disease Risk Classification
 
-> An XGBoost classifier trained on the UCI Heart disease dataset, with SHAP values used to explain every prediction. This project aims to bridge the gap between model accuracy and clinical interpretability.
+An XGBoost classifier trained on the UCI Heart Disease dataset, with SHAP values used to explain every prediction — bridging the gap between model accuracy and clinical interpretability.
 
 ---
 
-## 📌 Motivation
+## Motivation
 
 Accurate predictions alone are not enough in healthcare. Clinicians need to understand **why** a model flags a patient as high risk before acting on it. This project demonstrates how SHAP (SHapley Additive exPlanations) can open the black box of a gradient boosting model and provide feature-level explanations for individual patient predictions.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 HeartDiseaseXAI/
@@ -24,7 +24,7 @@ HeartDiseaseXAI/
 
 ---
 
-## 🔬 Dataset
+## Dataset
 
 **Heart Disease UCI** — aggregated from four clinical databases (Cleveland, Hungary, Switzerland, Long Beach VA).
 
@@ -53,7 +53,7 @@ HeartDiseaseXAI/
 
 ---
 
-## 🏗️ Pipeline
+## Pipeline
 
 ```
 Raw CSV
@@ -71,7 +71,7 @@ SHAP Explainability (Summary Plot + Waterfall Plot)
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric | Value |
 |---|---|
@@ -87,7 +87,7 @@ Each dot represents one patient. Features are ranked by their average impact on 
 
 ![SHAP Summary](shap_summary.png)
 
-**Key findings:**
+Key findings:
 - `cp` (chest pain type) is the strongest predictor — high chest pain strongly drives disease predictions
 - `oldpeak` (ST depression) and `exang` (exercise chest pain) are the next most influential features
 - `thalch` (max heart rate) — low values push toward disease, consistent with clinical knowledge
@@ -99,7 +99,7 @@ Explains a single patient's prediction step by step, showing exactly which featu
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Requirements
 ```
@@ -125,7 +125,7 @@ jupyter notebook HeartDiseaseXAI.ipynb
 
 ---
 
-## 🚀 Extensions & Future Work
+## Extensions & Future Work
 
 | Extension | Description |
 |---|---|
@@ -137,6 +137,6 @@ jupyter notebook HeartDiseaseXAI.ipynb
 
 ---
 
-## 📄 License
+## License
 
 MIT
