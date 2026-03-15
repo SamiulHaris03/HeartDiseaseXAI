@@ -99,7 +99,7 @@ Explains a single patient's prediction step by step, showing exactly which featu
 
 ---
 
-## Getting Started
+## Dependencies 
 
 ### Requirements
 ```
